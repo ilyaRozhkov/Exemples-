@@ -1,0 +1,24 @@
+.exemple_2{
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.data{
+    width: 100%;
+    height: 80%;
+}
+.button-boolean{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    border-radius: 25%;
+}
+.button-boolean__btn_active{
+    background-color: green;
+}
+.button-boolean__btn_disabled{
+    background-color: red;
+}
