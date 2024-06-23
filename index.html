@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./styles/exemple1.css">
-    <link rel="stylesheet" href="./styles/exemple2.css">
+    <link rel="stylesheet" href="./exemple1.css">
+    <link rel="stylesheet" href="./exemple2.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -12,10 +12,19 @@
     <div class="exemple_1">
         <h1>Exemple 1</h1>
         <p>2.2.	Можно на примере показать реализацию БЭМ принципов создания блоков\элементов (когда создаются блоки, когда элементы и как управляются зависимости). В частности, интересует позиционирование блоков и элементов на практике;</p>
-        <div class="header" >
+        <div class="header" ><!--
+        header - это блок
+-->
             <div class="header__button button button_theme_red"></div>
             <div class="header__button button button_theme_green"></div>
             <div class="header__button button button_theme_blue"></div>
+            <!--
+            header__button - это элемент
+            button - это блок
+            button_theme_red,
+            button button_theme_green,
+            button button_theme_blue - это модификаторы
+-->
         </div>
         <div class="navigation">
             <div class="navigation__button button button_theme_green"></div>
@@ -34,5 +43,5 @@
     </div>
     
 </body>
-<script src="./js/script.js"></script>
+<script src="./script.js"></script>
 </html>
